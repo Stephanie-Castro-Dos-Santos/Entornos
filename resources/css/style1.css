@@ -1,0 +1,214 @@
+@font-face{
+    font-family: BOTW;
+    src:url(../../fuentes/BOTW.ttf);
+}
+
+@font-face{
+     font-family:HyliaSerif;
+    src:url(../../fuentes/HyliaSerif.otf);
+}
+
+h2{
+    font-family: HyliaSerif;
+    text-align: center;
+    color: rgb(71, 58, 52);
+}
+
+#title, h1{
+    font-family: BOTW;
+}
+.p1{
+    font-family: HyliaSerif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.p2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20 px;
+    background-color: rgba(245, 245, 220, 0);
+}
+
+body{
+    background-image: url(../img/background1.png);
+}
+
+#title{
+    color:rgb(253,255,224);
+    text-align: center;
+    font-size: 80px;
+}
+    
+
+a{
+    color: rgb(71, 58, 52);
+    text-decoration: none;
+
+}
+
+footer{
+    text-align: center;
+    font-style: oblique;
+    background-image: url(../img/background2.png);
+    font-weight: bold;
+    padding: 5px;
+    border: 30px solid transparent;
+    border-width: 10px;
+    border-image: url(../img/sheikah-language-h.png) 50 50 repeat;
+}
+
+
+nav{
+    width:100%;
+    height: 80px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+li{
+    width:25%;
+    background-color: blanchedalmond;
+}
+
+ul li{
+    float:left;
+    margin-top:20px
+}
+
+ul li a{
+    color:rgb(71, 58, 52);
+    display:block;
+    text-decoration:none;
+    font-size: 20 px;
+    text-align: center;
+    padding:10px;
+    font-weight: bold;
+    font-family: HyliaSerif;
+}
+
+ul li a:hover{
+    background-color:rgb(229, 219, 203);
+}
+
+ul li ul{
+    background-color: beige;
+}
+
+.columna2{
+    margin: 15px;
+    float:right;
+    width: 70%;
+}
+
+.columna1{
+    margin: 15px;
+    float:left;
+    width: 20%;
+    background-image: url(../img/background2.png);
+    border: 30px solid transparent;
+    border-width: 10px;
+    border-image: url(../img/sheikah-language-h.png) 50 50 repeat; 
+}
+
+#central{
+    display:inline-block;
+}
+
+.columna1 p{
+    text-align: justify;
+    padding:15px;
+}
+
+.imagenes{
+    text-align:center;
+}
+
+#campeones{
+    height:250px;
+    width: 250px;
+}
+
+#bestias{
+    height:150px;
+    width: 550px;
+}
+
+#ganon{
+    height:250px;
+    width: 400px;
+}
+
+#modulos img{
+    display: block;
+}
+.secundarias{
+    border: 30px solid transparent;
+    border-width: 10px;
+    border-image: url(../img/sheikah-language-h.png) 50 50 repeat;
+    border-color:rgb(189, 182, 182);
+    padding: 15px; 
+    border-color: rgb(182, 180, 180);
+    margin-bottom:20px;
+    background-image: url(../img/background2.png); 
+}
+
+
+@media (max-width: 1000px) AND (orientation:portrait) {
+    #title{
+        font-size: 50px;
+    }
+
+    body {
+        font-size: small;
+    }
+
+    .columna2 { 
+        float:none;
+        border-width: 10px;
+        margin-left:11px;
+        width:96%;
+    }
+
+    .columna1{
+        float:none;
+        border-width: 10px;
+        margin-left:11px;
+        width:92%;
+    }
+
+    ul{
+        display:block;
+    }
+
+    ul li{
+        width:100%;
+    }
+    a:hover{
+        background-color:rgb(229, 219, 203);
+    }
+
+    .imagenes img{
+        width: 50%;
+        height: 50%;
+    }
+
+    #bestias{
+        width: 50%;
+        height: 50%;
+    }
+
+    #ganon{
+        width: 50%;
+        height: 50%;
+    }
+
+    main{
+        width: 100%;
+        overflow-y: hidden;
+    }
+}
